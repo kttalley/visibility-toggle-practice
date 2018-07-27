@@ -26,8 +26,8 @@ const renderTemplate = () => {
         <div>
             <h1>{appTitle}</h1>
             {upper && <button onClick = {revealButton}> {buttonTitle}</button>}
-            {visible &&
-                 <div><p>This app sucks tho. </p>
+            {visible && <div>
+                <p>This app sucks tho. </p>
                  <button onClick = {revealButton}> {buttonTitle} </button>
             </div>} 
         </div>
